@@ -115,7 +115,7 @@ var productData = [{
     price: "Rs. 599 ",
     rs: 599,
     strikedoffprice: "Rs 1999 ",
-    offer: "(70% OFF) ",
+    offer: "(60% OFF) ",
     atc: "Add to Bag",
     atw: "Add to Whishlist",
     category: "Shirt"
