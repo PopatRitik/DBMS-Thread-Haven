@@ -24,7 +24,7 @@ body img {
 }
 
 /* Menu bar */
-header {
+/* header1 {
     width: 100%;
     height: 110px;
     box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
@@ -40,7 +40,7 @@ header {
     z-index: 1000;
 }
 
-header>* {
+header1>* {
     height: 100%;
 }
 
@@ -180,7 +180,7 @@ header>* {
 
 
 /* PROFILE DROPDOWN MENU */
-#reggDropdown {
+/*#reggDropdown {
     position: relative;
 }
 
@@ -233,12 +233,12 @@ header>* {
 
 #reggDropdown a:hover {
     background-color: #f8d7cf;
-}
+} */
 
-
+/* 
 #toggle {
     display: none;
-}
+} */
 
 
 

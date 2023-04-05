@@ -15,29 +15,46 @@
   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Thread Haven</title>
+  <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
 
-  <header class="container flex space-between">
-    <nav class="flex space-between">
-      <div class="unn left flex item-center space-between">
-        <a class="colorchange" href="index.html"><img src="Screenshot (324).png" class="logo" alt=""></a>
-        <ul class="flex item-center justify-center uppercase bold space-between">
-          <li class="un1"><a class="colorchange" href="men.html">Men</a></li>
-          <li class="un1"><a class="colorchange" href="women.html">Women</a></li>
-          <li class="un1"><a class="colorchange" href="home.html">Home & Living</a></li>
-        </ul>
-
+  <header>
+    <div id="logo">
+      <a href="index.html"><img id="imgp" src="logo.png"></a>
+    </div>
+    <ul id="nav_bar1">
+      <li id="megamenu_container"><a href="men.html">men</a></li>
+      <li><a href="women.html">women</a></li>
+      <li id="studio"><a href="home.html">home & living</a><span>new</span></li>
+    </ul>
+    <div class="ser">
+      <input class="searc" type="text" placeholder="Search">
+    </div>
+    <div id="right_icon1">
+      <div>
+        <i class="fa-regular fa-heart"></i>
+        <span>wishlist</span>
       </div>
-      <div class="unn right flex item-center">
-        <input class="searc" type="text" placeholder="Search">
-        <div class="wishlist mx-2">wishlist</div>
-        <div class="profile mx-2 "><a class="colorchange" href="login1.html" target="_blank">profile</a></div>
-        <div class="bag mx-2">bag</div>
-
+    </div>
+    <div id="right_icon1">
+      <div id="reggDropdown">
+        <div id="drop">
+          <a href="login1.html" target="_blank" class="dropList">login</a>
+          <a href="signup.html" target="_blank" class="dropList">sign up</a>
+        </div>
+        <i class="fa-regular fa-user"></i>
+        <span>profile</span>
       </div>
-    </nav>
+    </div>
+    <div id="right_icon1">
+      <div>
+        <i class="fa-solid fa-bag-shopping"></i>
+        <span>bag</span>
+      </div>
+    </div>
   </header>
 
 
