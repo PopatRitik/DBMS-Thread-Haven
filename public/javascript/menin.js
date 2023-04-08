@@ -1,5 +1,5 @@
 var productData = [{
-    image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13640716/2021/5/24/48e9e3bc-8fb7-4af5-97fa-46927f68fbd81621838454680JeansRoadsterMenJeansRoadsterMenTrackPantsHRXbyHrithikRoshan1.jpg ",
+    image_url: "../public/images/t1.webp",
     brand: "U.S. Polo Assn.",
     para: "Printed Polo Collar Pure Cotton T-Shirt",
     price: "Rs. 1259",
@@ -10,7 +10,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Tshirts",
 }, {
-    image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11359600/2020/6/22/97e8ab74-25ff-4daf-bffb-b0a1ec708c191592819068194ShirtsUSPoloAssnMenShirtsUSPoloAssnMenShirtsUSPoloAssnMenShi1.jpg ",
+    image_url: "../public/images/t2.webp",
     brand: "PUMA",
     para: "Colourblocked Polo Collar Pure Cotton ",
     price: "Rs. 1139 ",
@@ -21,7 +21,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Tshirts",
 }, {
-    image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11359590/2020/2/26/68da9e40-e8b1-4710-8282-802c2c6550c11582709189210-US-Polo-Assn-Men-Tshirts-9481582709187568-1.jpg ",
+    image_url: "../public/images/t3.webp",
     brand: "HRX by Hrithik Roshan",
     para: "Stiped Polo Collar Pur Cotton T-Shirt ",
     price: "Rs. 949 ",
@@ -32,7 +32,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Tshirts",
 }, {
-    image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/1/17/8088e3c4-5737-482b-80de-8d9bcede75f81579215077796-1.jpg ",
+    image_url: "../public/images/t4.webp",
     brand: "Flying Machine",
     para: "Printed Polo Collar Pure Cotton T-Shirt ",
     price: "Rs. 1259 ",
@@ -43,7 +43,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Tshirts",
 }, {
-    image_url: "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1924785/2018/5/18/be8485c7-0944-4f38-8f5f-78b6e325fd201526634385328-US-Polo-Assn-Men-Khaki-Slim-Fit-Solid-Chinos-7181526634383854-1.jpg ",
+    image_url: "../public/images/j1.webp",
     brand: "WROGN",
     para: "Men Slim Fit Chinos ",
     price: "Rs. 1049 ",
@@ -54,7 +54,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Trousers"
 }, {
-    image_url: "j1.webp",
+    image_url: "../public/images/j2.webp",
     brand: "WRANGLER",
     para: "Men Slim Fit Jeans ",
     price: "Rs. 899 ",
@@ -65,7 +65,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Trousers"
 }, {
-    image_url: "j2.webp",
+    image_url: "../public/images/j3.webp",
     brand: "LEVI'S",
     para: "Men Slim Fit Jeans ",
     price: "Rs. 1449 ",
@@ -76,7 +76,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Trousers"
 }, {
-    image_url: "J3.webp",
+    image_url: "../public/images/j4.webp",
     brand: "LEE",
     para: "Men's Slim Fit Jeans ",
     price: "Rs. 1398 ",
@@ -87,7 +87,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Trousers"
 }, {
-    image_url: "s1 (2).webp",
+    image_url: "../public/images/s1 (2).webp",
     brand: "PEPPYZONE",
     para: "Men's Regular Fit Checked Casual Shirt ",
     price: "Rs. 689 ",
@@ -98,7 +98,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Shirt"
 }, {
-    image_url: "s2 (1).webp",
+    image_url: "../public/images/s2 (1).webp",
     brand: "VAN HEUSEN SPORT",
     para: "Men's Shirt ",
     price: "Rs. 999 ",
@@ -109,7 +109,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Shirt"
 }, {
-    image_url: "s3 (1).webp",
+    image_url: "../public/images/s3 (1).webp",
     brand: "INDOPRIMO",
     para: "Men's Classic Fit Casual Shirt",
     price: "Rs. 599 ",
@@ -120,7 +120,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Shirt"
 }, {
-    image_url: "s4 (1).webp",
+    image_url: "../public/images/s4 (1).webp",
     brand: "LYMIO",
     para: "Men's Casual Shirt",
     price: "Rs. 498 ",

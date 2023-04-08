@@ -1,5 +1,5 @@
 var productData = [{
-    image_url: "b1 (1).webp",
+    image_url: "../public/images/b1 (1).webp",
     brand: "Huesland by Ahmedabad",
     para: "Cotton 144 TC Bedsheet for King Size Bed with 2 Pillow Covers",
     price: "Rs. 999",
@@ -10,7 +10,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "BedSheet",
 }, {
-    image_url: "b2 (1).webp",
+    image_url: "../public/images/b2 (1).webp",
     brand: "Haus & Kinder",
     para: "Floral Grace Bedsheet for King Size Bed with 2 Pillow Covers",
     price: "Rs. 999",
@@ -21,7 +21,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "BedSheet",
 }, {
-    image_url: "b3 (1).webp",
+    image_url: "../public/images/b3 (1).webp",
     brand: "Aeroheaven",
     para: "Cotton 210 TC Bedsheet for King Size Bed with 2 Pillow Covers",
     price: "Rs. 599",
@@ -32,7 +32,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "BedSheet",
 }, {
-    image_url: "b4 (1).webp",
+    image_url: "../public/images/b4 (1).webp",
     brand: "Trance Home",
     para: "Linen 200 TC Bedsheet for King Size Bed with 2 Pillow Covers",
     price: "Rs. 1233",
@@ -43,7 +43,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "BedSheet",
 }, {
-    image_url: "a1 (1).webp",
+    image_url: "../public/images/a1 (1).webp",
     brand: "Kumar Industries",
     para: "Metal Wall Decor/Hanging Wall Art",
     price: "Rs. 2499",
@@ -54,7 +54,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "BedSheet",
 }, {
-    image_url: "a2 (1).webp",
+    image_url: "../public/images/a2 (1).webp",
     brand: "La Decorica",
     para: " Morden Stylish Metal Wall Decor/Hanging Wall Art",
     price: "Rs. 2450",
@@ -65,7 +65,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "BedSheet",
 }, {
-    image_url: "a3 (1).webp",
+    image_url: "../public/images/a3 (1).webp",
     brand: "DSH",
     para: "Abstract Metal Wall Decor/Hanging Wall Art",
     price: "Rs. 2880",
@@ -76,7 +76,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "BedSheet",
 }, {
-    image_url: "a4 (1).webp",
+    image_url: "../public/images/a4 (1).webp",
     brand: "Huesland by Ahmedabad",
     para: "Beautiful Leaf Wall Decor/Hanging Wall Art",
     price: "Rs. 1999",
