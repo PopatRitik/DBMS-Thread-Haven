@@ -1,5 +1,5 @@
 var productData = [{
-    image_url: "../public/images/k1 (1).webp",
+    image_url: "images/k1 (1).webp",
     brand: "ANNI DESIGNER",
     para: "Women's Cotton Blend Kurta",
     price: "Rs. 419",
@@ -10,7 +10,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Kurta",
 }, {
-    image_url: "../public/images/k2 (1).webp",
+    image_url: "images/k2 (1).webp",
     brand: "ANNI DESIGNER",
     para: "Women's Cotton Blend Printed Straight Kurta",
     price: "Rs. 659",
@@ -21,7 +21,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Kurta",
 }, {
-    image_url: "../public/images/k3 (1).webp",
+    image_url: "images/k3 (1).webp",
     brand: "WNESY",
     para: "Women's Rayon Printed Kurta",
     price: "Rs. 999",
@@ -32,7 +32,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Kurta",
 }, {
-    image_url: "../public/images/k4 (1).webp",
+    image_url: "images/k4 (1).webp",
     brand: "GOSIRIKI",
     para: "Women's Cotton Blend Straight Kurta",
     price: "Rs. 699",
@@ -43,7 +43,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Kurta",
 }, {
-    image_url: "../public/images/d1 (1).webp",
+    image_url: "images/d1 (1).webp",
     brand: "SHEETAL ASSOCIATES",
     para: "Women's Puff Sleeve Dress",
     price: "Rs. 379 ",
@@ -54,7 +54,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Dress"
 }, {
-    image_url: "../public/images/d2 (1).webp",
+    image_url: "images/d2 (1).webp",
     brand: "KERI PERRY",
     para: "Women's Chiffon Western Dress",
     price: "Rs. 599 ",
@@ -65,7 +65,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Dress"
 }, {
-    image_url: "../public/images/d3 (1).webp",
+    image_url: "images/d3 (1).webp",
     brand: "LYMIO",
     para: "Dress for Women",
     price: "Rs. 499 ",
@@ -76,7 +76,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Dress"
 }, {
-    image_url: "../public/images/d4 (1).webp",
+    image_url: "images/d4 (1).webp",
     brand: "TOPLOT",
     para: "Dress for Women",
     price: "Rs. 599 ",
@@ -87,7 +87,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Dress"
 }, {
-    image_url: "../public/images/s1 (1) (1).webp",
+    image_url: "images/s1 (1) (1).webp",
     brand: "NEEAH",
     para: "Women's Banarasi Saree",
     price: "Rs. 899 ",
@@ -98,7 +98,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Saree"
 }, {
-    image_url: "../public/images/s2 (1) (1).webp",
+    image_url: "images/s2 (1) (1).webp",
     brand: "GLORY SAREES",
     para: "Women's Kanchipuram Saree",
     price: "Rs. 559 ",
@@ -109,7 +109,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Saree"
 }, {
-    image_url: "../public/images/s3 (1) (1).webp",
+    image_url: "images/s3 (1) (1).webp",
     brand: "PANASH TRENDS",
     para: "Women's Rangoli Silk Embroidered Saree",
     price: "Rs. 1308 ",
@@ -120,7 +120,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Saree"
 }, {
-    image_url: "../public/images/s4 (1) (1).webp",
+    image_url: "images/s4 (1) (1).webp",
     brand: "SHIV TEXTILES",
     para: "Women's Banarasi Saree",
     price: "Rs. 999 ",

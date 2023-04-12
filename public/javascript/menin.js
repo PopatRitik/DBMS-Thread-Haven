@@ -1,5 +1,5 @@
 var productData = [{
-    image_url: "../public/images/t1.webp",
+    image_url: "images/t1.webp",
     brand: "U.S. Polo Assn.",
     para: "Printed Polo Collar Pure Cotton T-Shirt",
     price: "Rs. 1259",
@@ -10,7 +10,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Tshirts",
 }, {
-    image_url: "../public/images/t2.webp",
+    image_url: "images/t2.webp",
     brand: "PUMA",
     para: "Colourblocked Polo Collar Pure Cotton ",
     price: "Rs. 1139 ",
@@ -21,7 +21,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Tshirts",
 }, {
-    image_url: "../public/images/t3.webp",
+    image_url: "images/t3.webp",
     brand: "HRX by Hrithik Roshan",
     para: "Stiped Polo Collar Pur Cotton T-Shirt ",
     price: "Rs. 949 ",
@@ -32,7 +32,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Tshirts",
 }, {
-    image_url: "../public/images/t4.webp",
+    image_url: "images/t4.webp",
     brand: "Flying Machine",
     para: "Printed Polo Collar Pure Cotton T-Shirt ",
     price: "Rs. 1259 ",
@@ -43,7 +43,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Tshirts",
 }, {
-    image_url: "../public/images/j1.webp",
+    image_url: "images/j1.webp",
     brand: "WROGN",
     para: "Men Slim Fit Chinos ",
     price: "Rs. 1049 ",
@@ -54,7 +54,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Trousers"
 }, {
-    image_url: "../public/images/j2.webp",
+    image_url: "images/j2.webp",
     brand: "WRANGLER",
     para: "Men Slim Fit Jeans ",
     price: "Rs. 899 ",
@@ -65,7 +65,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Trousers"
 }, {
-    image_url: "../public/images/j3.webp",
+    image_url: "images/j3.webp",
     brand: "LEVI'S",
     para: "Men Slim Fit Jeans ",
     price: "Rs. 1449 ",
@@ -76,7 +76,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Trousers"
 }, {
-    image_url: "../public/images/j4.webp",
+    image_url: "images/j4.webp",
     brand: "LEE",
     para: "Men's Slim Fit Jeans ",
     price: "Rs. 1398 ",
@@ -87,7 +87,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Trousers"
 }, {
-    image_url: "../public/images/s1 (2).webp",
+    image_url: "images/s1 (2).webp",
     brand: "PEPPYZONE",
     para: "Men's Regular Fit Checked Casual Shirt ",
     price: "Rs. 689 ",
@@ -98,7 +98,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Shirt"
 }, {
-    image_url: "../public/images/s2 (1).webp",
+    image_url: "images/s2 (1).webp",
     brand: "VAN HEUSEN SPORT",
     para: "Men's Shirt ",
     price: "Rs. 999 ",
@@ -109,7 +109,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Shirt"
 }, {
-    image_url: "../public/images/s3 (1).webp",
+    image_url: "images/s3 (1).webp",
     brand: "INDOPRIMO",
     para: "Men's Classic Fit Casual Shirt",
     price: "Rs. 599 ",
@@ -120,7 +120,7 @@ var productData = [{
     atw: "Add to Whishlist",
     category: "Shirt"
 }, {
-    image_url: "../public/images/s4 (1).webp",
+    image_url: "images/s4 (1).webp",
     brand: "LYMIO",
     para: "Men's Casual Shirt",
     price: "Rs. 498 ",
