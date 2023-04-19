@@ -463,6 +463,7 @@ body {
 }
 
 #right_icon>div {
+    
     padding-top: 25px;
     width: 33%;
     display: flex;
@@ -514,6 +515,11 @@ body {
     align-items: center;
     justify-content: center;
     gap: 5px
+}
+#right_icon a {
+    text-decoration: none;
+    color: black;
+   
 }
 
 #right_icon1 i {
