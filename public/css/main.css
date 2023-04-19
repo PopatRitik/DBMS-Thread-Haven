@@ -928,3 +928,117 @@ header>* {
     position: absolute;
     left: 4rem;
 }
+
+
+#regDropdown {
+    position: relative;
+}
+
+#regDropdown>#drop {
+    width: 20rem;
+    height: 0;
+    padding-right: 1rem;
+    
+    position: absolute;
+    top: 100%;
+    right: 0;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-radius: 1rem;
+    cursor: default;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 500ms;
+}
+
+#regDropdown a {
+    width: 85%;
+    text-decoration: none;
+    color: unset;
+    display: inline-block;
+    text-align: right;
+    border-radius: 1rem;
+    padding: 1rem;
+  
+    transition: all 500ms;
+
+}
+
+#regDropdown:hover #drop {
+    visibility: visible;
+    width: 15rem;
+    height: 15rem;
+    margin: 1rem;
+   
+}
+
+#regDropdown>#drop .dropList {
+    font-size: 0;
+}
+
+#regDropdown:hover>#drop .dropList {
+    font-size: 1rem;
+
+   
+}
+
+#regDropdown a:hover {
+    background-color: #f8d7cf;
+}
+
+#regDropdown1 {
+    position: relative;
+}
+
+#regDropdown1>#drop1 {
+    width: 26rem;
+    height: 0;
+    padding-right: 1rem;
+    
+    position: absolute;
+    top: 100%;
+    right: 0;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-radius: 1rem;
+    cursor: default;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 500ms;
+}
+
+#regDropdown1 a {
+    width: 85%;
+    text-decoration: none;
+    color: unset;
+    display: inline-block;
+    text-align: right;
+    border-radius: 1rem;
+    padding: 1rem;
+    transition: all 500ms;
+
+}
+
+#regDropdown1:hover #drop1 {
+    visibility: visible;
+    width: 19rem;
+    height: 14.5rem;
+}
+
+#regDropdown1>#drop1 .dropList1 {
+    font-size: 0;
+}
+
+#regDropdown1:hover>#drop1 .dropList1 {
+    font-size: 1.6rem;
+}
+
+#regDropdown1 a:hover {
+    background-color: #f8d7cf;
+}
