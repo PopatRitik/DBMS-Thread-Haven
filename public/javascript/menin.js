@@ -191,8 +191,7 @@ function displayPage(productData) {
 
         atw.addEventListener("click", function () {
             addToWishlist(elem)
-            atw.style.color = "green"
-            atw.innerText = "ADDED TO WISHLIST"
+            
         })
 
 
@@ -205,7 +204,8 @@ function displayPage(productData) {
 
         atc.addEventListener("click", function () {
             addToBag(elem)
-            atc.innerText = "ADDED TO BAG"
+            // atc.innerText = "ADDED TO BAG"
+            // alert("ADDED TO BAG");
         })
 
         contentBox.append(brand, productname, mix, atw, atc)
@@ -220,4 +220,66 @@ function displayPage(productData) {
 
 }
 
+function addToWishlist(element) {
+    // var f;
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        var data = (this.responseText);
+        // f = data
+        if(data == "1"){
+            
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "/addToWish");
+            xhr.setRequestHeader("Content-type", "application/json");
+            xhr.onload = function () {
+                // do something to response
+                console.log(element);
+            };
+            xhr.send(JSON.stringify(element));
+            alert("ADDED TO WISHLIST");
+        }
+        else{
+            window.location.href = "login1"
+        }
+    }
+    };
+    
+    xhttp.open("GET", "http://localhost:3000/auth", true);
+    xhttp.send();
 
+    
+    // console.log(f);
+}
+
+function addToBag(element) {
+    // var f;
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        var data = (this.responseText);
+        // f = data
+        if(data == "1"){
+            
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "/addToBag");
+            xhr.setRequestHeader("Content-type", "application/json");
+            xhr.onload = function () {
+                // do something to response
+                console.log(element);
+            };
+            xhr.send(JSON.stringify(element));
+            alert("ADDED TO BAG");
+        }
+        else{
+            window.location.href = "login1"
+        }
+    }
+    };
+    
+    xhttp.open("GET", "http://localhost:3000/auth", true);
+    xhttp.send();
+
+    
+    // console.log(f);
+}

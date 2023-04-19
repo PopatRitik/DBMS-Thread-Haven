@@ -1,102 +1,26 @@
-var productData = [{
-    image_url: "images/b1 (1).webp",
-    brand: "Huesland by Ahmedabad",
-    para: "Cotton 144 TC Bedsheet for King Size Bed with 2 Pillow Covers",
-    price: "Rs. 999",
-    rs: 999,
-    strikedoffprice: "Rs 1999",
-    offer: "(50% OFF)",
-    atc: "Add to Bag",
-    atw: "Add to Whishlist",
-    category: "BedSheet",
-}, {
-    image_url: "images/b2 (1).webp",
-    brand: "Haus & Kinder",
-    para: "Floral Grace Bedsheet for King Size Bed with 2 Pillow Covers",
-    price: "Rs. 999",
-    rs: 999,
-    strikedoffprice: "Rs 1999",
-    offer: "(50% OFF)",
-    atc: "Add to Bag",
-    atw: "Add to Whishlist",
-    category: "BedSheet",
-}, {
-    image_url: "images/b3 (1).webp",
-    brand: "Aeroheaven",
-    para: "Cotton 210 TC Bedsheet for King Size Bed with 2 Pillow Covers",
-    price: "Rs. 599",
-    rs: 599,
-    strikedoffprice: "Rs 1199",
-    offer: "(50% OFF)",
-    atc: "Add to Bag",
-    atw: "Add to Whishlist",
-    category: "BedSheet",
-}, {
-    image_url: "images/b4 (1).webp",
-    brand: "Trance Home",
-    para: "Linen 200 TC Bedsheet for King Size Bed with 2 Pillow Covers",
-    price: "Rs. 1233",
-    rs: 1233,
-    strikedoffprice: "Rs 2599",
-    offer: "(53% OFF)",
-    atc: "Add to Bag",
-    atw: "Add to Whishlist",
-    category: "BedSheet",
-}, {
-    image_url: "images/a1 (1).webp",
-    brand: "Kumar Industries",
-    para: "Metal Wall Decor/Hanging Wall Art",
-    price: "Rs. 2499",
-    rs: 2499,
-    strikedoffprice: "Rs 2649",
-    offer: "(6% OFF)",
-    atc: "Add to Bag",
-    atw: "Add to Whishlist",
-    category: "BedSheet",
-}, {
-    image_url: "images/a2 (1).webp",
-    brand: "La Decorica",
-    para: " Morden Stylish Metal Wall Decor/Hanging Wall Art",
-    price: "Rs. 2450",
-    rs: 2450,
-    strikedoffprice: "Rs 4999",
-    offer: "(51% OFF)",
-    atc: "Add to Bag",
-    atw: "Add to Whishlist",
-    category: "BedSheet",
-}, {
-    image_url: "images/a3 (1).webp",
-    brand: "DSH",
-    para: "Abstract Metal Wall Decor/Hanging Wall Art",
-    price: "Rs. 2880",
-    rs: 2880,
-    strikedoffprice: "Rs 7999",
-    offer: "(64% OFF)",
-    atc: "Add to Bag",
-    atw: "Add to Whishlist",
-    category: "BedSheet",
-}, {
-    image_url: "images/a4 (1).webp",
-    brand: "Huesland by Ahmedabad",
-    para: "Beautiful Leaf Wall Decor/Hanging Wall Art",
-    price: "Rs. 1999",
-    rs: 1999,
-    strikedoffprice: "Rs 3999",
-    offer: "(50% OFF)",
-    atc: "Add to Bag",
-    atw: "Add to Whishlist",
-    category: "BedSheet",
-}];
+var productData = []
+window.addEventListener('load', function () {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        var data = JSON.parse(this.responseText);
+        productData = Array.from(data);
+        displayPage(productData)
+    }
+    };
+    
+    xhttp.open("GET", "http://localhost:3000/wishlist", true);
+    xhttp.send();
+    
+})
 
 var wishListData = JSON.parse(localStorage.getItem("wishListObj")) || []
 
 var bagData = JSON.parse(localStorage.getItem("BagListObj")) || []
 
-window.addEventListener('load', function () {
-    displayPage(productData)
-})
 
-document.getElementById('nameSort').addEventListener('change', sortNames);
+
+// document.getElementById('nameSort').addEventListener('change', sortNames);
 
 
 function displayPage(productData) {
@@ -138,23 +62,19 @@ function displayPage(productData) {
 
         mix.append(price, strprice, offer)
 
-
-
         var atw = document.createElement("p")
         atw.setAttribute("class", "wishListp")
-        atw.textContent = elem.atw;
+        atw.textContent = "Add to Bag";
         atw.style.cursor = "pointer"
 
-        atw.addEventListener("click", function () {
+        atw.addEventListener("click", function() {
             addToWishlist(elem)
             
         })
 
-
-
         var atc = document.createElement("p")
         atc.setAttribute("class", "addToBagp")
-        atc.textContent = elem.atc;
+        atc.textContent = "Remove from Wish";
         atc.style.cursor = "pointer"
 
 
@@ -163,7 +83,7 @@ function displayPage(productData) {
             
         })
 
-        contentBox.append(brand, productname, mix, atw, atc)
+        contentBox.append(brand, productname, mix, atw,  atc)
 
         box.append(img, contentBox)
 
@@ -185,14 +105,23 @@ function addToWishlist(element) {
         if(data == "1"){
             
             var xhr = new XMLHttpRequest();
-            xhr.open("POST", "/addToWish");
+            xhr.open("POST", "/addToBag");
             xhr.setRequestHeader("Content-type", "application/json");
             xhr.onload = function () {
                 // do something to response
                 console.log(element);
             };
             xhr.send(JSON.stringify(element));
-            alert("ADDED TO WISHLIST");
+
+            var xhr1 = new XMLHttpRequest();
+            xhr1.open("POST", "/removeWish");
+            xhr1.setRequestHeader("Content-type", "application/json");
+            xhr1.onload = function () {
+                // do something to response
+                console.log(element);
+            };
+            xhr1.send(JSON.stringify(element));
+            window.location.href = "wishin"
         }
         else{
             window.location.href = "login1"
@@ -217,14 +146,14 @@ function addToBag(element) {
         if(data == "1"){
             
             var xhr = new XMLHttpRequest();
-            xhr.open("POST", "/addToBag");
+            xhr.open("POST", "/removeWish");
             xhr.setRequestHeader("Content-type", "application/json");
             xhr.onload = function () {
                 // do something to response
                 console.log(element);
             };
             xhr.send(JSON.stringify(element));
-            alert("ADDED TO BAG");
+            window.location.href = "wishin"
         }
         else{
             window.location.href = "login1"
@@ -238,4 +167,3 @@ function addToBag(element) {
     
     // console.log(f);
 }
-
