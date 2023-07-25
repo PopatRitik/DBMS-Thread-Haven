@@ -301,7 +301,7 @@ app.get("/bag", (req, res) => {
             for (let i = 0; i < foundUser.bagitems.length; i++) {
                 data.push(foundUser.bagitems[i])
             }
-            console.log(data);
+            // console.log(data);
             res.send(JSON.stringify(data));
         }
 

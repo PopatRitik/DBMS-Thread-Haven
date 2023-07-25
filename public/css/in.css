@@ -177,6 +177,23 @@ input[type="radio" i] {
 }
 
 
+#check{
+    margin-bottom: 10px;
+    margin-left: 25%;
+    border-radius: 25px;
+    border-width: 0px;
+    width: 50%;
+    height: 9%;
+    background-color: #ff2356;
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    font-size:x-large;
+}
+
+
 /* MEDEIA QUERIES FOR TABLET VIEW */
 
 @media all and (min-width: 551px) and (max-width: 850px) {
